@@ -1,0 +1,12 @@
+{
+  "name": "ctx-search",
+  "version": "0.1.0",
+  "description": "Full-text search over compressed AI-agent session logs",
+  "main": "ctx.js",
+  "bin": { "ctx-search": "./ctx.js" },
+  "engines": { "node": ">=22.15" },
+  "scripts": { "test": "node ctx.js stats" },
+  "keywords": ["agent", "memory", "context", "zstd", "jsonl", "search", "llm"],
+  "license": "MIT",
+  "dependencies": {}
+}
